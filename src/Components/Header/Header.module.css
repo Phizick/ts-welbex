@@ -1,0 +1,65 @@
+.header {
+    margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+}
+
+.mainHeaderContent {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+
+}
+
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0;
+}
+
+.headerNavItem {
+    list-style-type: none;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.headerLogo {
+    max-width: 97px;
+    max-height: 24px;
+}
+
+.logoText {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    max-width: 80%;
+}
+
+.contacts {
+    display: flex;
+    justify-self: flex-end;
+    padding-left: 137px;
+}
+
+.socialContainer {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 47px;
+}
+
+.contactsText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    width: fit-content;
+    white-space: nowrap;
+}

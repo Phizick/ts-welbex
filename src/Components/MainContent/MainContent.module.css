@@ -1,0 +1,82 @@
+.content {
+    white-space: pre-line
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 58px;
+    text-align: left;
+    margin: 0;
+}
+
+.subtitle {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.titleSpan {
+    background: unset;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    background: -webkit-linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.infoTitle {
+    text-align: right;
+}
+
+.infoSpan {
+    background: unset;
+    background: linear-gradient(180deg, #f84a39 0%, #ff8036 100%);
+    background: -webkit-linear-gradient(67deg, #ff8036 0%, #f84a39 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.grid {
+    list-style-type: none;
+    display: grid;
+    flex-wrap: wrap;
+    justify-items: stretch;
+    grid-template-columns: 135px 135px;
+    padding: 0;
+    row-gap: 30px;
+    margin: 40px 0 61px 0;
+}
+
+.gridItem {
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+    max-width: 1140px;
+}
+
