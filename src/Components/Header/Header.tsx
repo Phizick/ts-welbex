@@ -29,7 +29,10 @@ export const Header = () => {
                 </div>
             </div>
             </div>
-            <p className={stylesHeader.logoText}>крупный интегратор CRM в&nbsp;Росcии и&nbsp;ещё&nbsp;8&nbsp;странах</p>
+
+                <div className={stylesHeader.textContainer}>
+            <p className={stylesHeader.logoText}>крупный интегратор CRM{`\n`} в&nbsp;Росcии и&nbsp;ещё&nbsp;8&nbsp;странах</p>
+                </div>
 
         </header>
     )

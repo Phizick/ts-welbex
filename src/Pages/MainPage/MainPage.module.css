@@ -1,4 +1,124 @@
 .content {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 55px;
+}
+
+.balls {
+    position: relative;
+}
+
+.ballRedFirst {
+    position: absolute;
+    z-index: -4;
+    left: 25vw;
+    top: 128px;
+    -webkit-animation: redBallFirst 10s ease-in-out infinite;
+}
+
+.ballImgRed {
+    width: 83px;
+    height: 83px;
+}
+
+@keyframes redBallFirst {
+    0%, 100% {
+        transform: translateY(120px) translateX(320px);
+    }
+    50% {
+        transform: translateY(-220px);
+    }
+}
+
+.ballImgPurple {
+    width: 60px;
+    height: 60px;
+}
+
+.ballPurpleFirst {
+    position: absolute;
+    z-index: -3;
+    left: 55vw;
+    top: 128px;
+    -webkit-animation: purpleBall 12s ease-in-out infinite;
+}
+
+@keyframes purpleBall {
+    0%, 100% {
+        transform: translateY(50px) translateX(420px);
+    }
+    50% {
+        transform: translateY(-120px);
+    }
+}
+
+.ballImgRedSmall {
+    width: 28px;
+    height: 28px;
+}
+
+.ballRedSecond {
+    position: absolute;
+    z-index: -2;
+    left: 60vw;
+    top: 458px;
+    -webkit-animation: smallRedBall 12s ease-in-out infinite;
+    filter: blur(2px);
+}
+
+@keyframes smallRedBall {
+    100% {
+        transform:  translateX(20px);
+    }
+    50% {
+        transform: translateX(-620px);
+    }
+}
+
+.purpleLight {
+    position: absolute;
+    z-index: -5;
+    left: 22vw;
+    top: -500px;
+}
+
+
+
+.redLight {
+    position: absolute;
+    z-index: -6;
+    left: -35vw;
+    top: -192px;
+    -webkit-animation: redLightAnimation 12s ease-in-out infinite;
+}
+
+@keyframes redLightAnimation {
+    0%, 100% {
+        transform: translateY(250px) translateX(50px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .ballRedSecond {
+        filter: blur(5px);
+    }
+
+    .ballPurpleFirst {
+        filter: blur(5px);
+    }
+
+    .ballRedFirst {
+        filter: blur(5px)
+    }
+
+    .redLight {
+        filter: blur(5px);
+    }
+
+    .content {
+        padding: 0;
+    }
 }

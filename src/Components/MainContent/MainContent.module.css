@@ -1,5 +1,5 @@
 .content {
-    white-space: pre-line
+    white-space: pre-line;
 }
 
 .titleContainer {
@@ -27,8 +27,7 @@
 
 .titleSpan {
     background: unset;
-    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
-    background: -webkit-linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    background: -webkit-linear-gradient(359deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -41,14 +40,25 @@
 
 .infoSpan {
     background: unset;
-    background: linear-gradient(180deg, #f84a39 0%, #ff8036 100%);
-    background: -webkit-linear-gradient(67deg, #ff8036 0%, #f84a39 100%);
+    background: -webkit-linear-gradient(359deg, #FCB045 0%, #FD1D1D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
     font-size: 18px;
     font-weight: 700;
+}
+
+.infoSpanOrange {
+    background: unset;
+    background: -webkit-linear-gradient(355deg, #ff9136 0%, #ef570c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+
 }
 
 .infoContainer {
@@ -79,4 +89,96 @@
     margin-top: 90px;
     max-width: 1140px;
 }
+
+.mobileLine {
+    width: 15px;
+    height: 0;
+    border: 1px solid;
+    border-image: -webkit-linear-gradient(349deg, #ff8036 0%, #f84a39 100%);
+    border-image-slice: 1;
+    align-self: center;
+}
+
+@media screen and (max-width: 735px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .content {
+        padding: 0 14px;
+    }
+    .gridItem {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .infoContainer {
+        align-items: flex-start;
+        padding-top: 45px;
+    }
+    .infoTitle {
+        text-align: left;
+    }
+    .grid {
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .title {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+    }
+    .subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .infoTitle {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .infoSpan {
+
+        background: unset;
+        background: -webkit-linear-gradient(273deg, #FCB045 0%, #FD1D1D 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .infoSpanOrange {
+        background: unset;
+        background: -webkit-linear-gradient(74deg, #ff9136 0%, #ef570c 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .content {
+        margin-top: 92px;
+    }
+}
+
+
+
 

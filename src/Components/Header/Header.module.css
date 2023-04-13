@@ -1,7 +1,5 @@
 .header {
     margin-top: 46px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: transparent;
     position: relative;
@@ -10,7 +8,7 @@
 .mainHeaderContent {
     display: flex;
     justify-content: space-between;
-    width: 1140px;
+    max-width: 1140px;
 
 }
 
@@ -23,11 +21,19 @@
 
 .headerNavItem {
     list-style-type: none;
+    transition: .3s;
 }
+
+.headerNavItem:hover {
+    color: rgba(255, 177, 68, 1);
+    cursor: pointer;
+}
+
 
 .logoContainer {
     display: flex;
     align-items: flex-end;
+    transition: 2s;
 }
 
 .headerLogo {
@@ -40,13 +46,14 @@
     font-size: 10px;
     font-weight: 300;
     line-height: 12px;
-    max-width: 80%;
+    transition: 2s;
 }
 
 .contacts {
     display: flex;
     justify-self: flex-end;
-    padding-left: 137px;
+    align-items: center;
+    transition: .5s;
 }
 
 .socialContainer {
@@ -63,3 +70,67 @@
     width: fit-content;
     white-space: nowrap;
 }
+
+.textContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    white-space: pre-line;
+}
+
+@media screen and (max-width: 1025px) {
+    .contacts {
+        display: none
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .logoContainer {
+        opacity: 0;
+    }
+
+    .logoText {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .logoContainer {
+        display: none;
+    }
+
+    .logoText {
+        display: none;
+    }
+
+    .header {
+        background-color: rgba(30, 30, 30, 1);
+        padding: 20px 16px;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .headerNavItem:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .headerNavItem {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 500;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        padding: 20px 0;
+    }
+
+}
+
+
+
+
