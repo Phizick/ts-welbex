@@ -22,6 +22,10 @@
 .headerNavItem {
     list-style-type: none;
     transition: .3s;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
 }
 
 .headerNavItem:hover {
@@ -37,7 +41,7 @@
 }
 
 .headerLogo {
-    max-width: 97px;
+    max-width: 140px;
     max-height: 24px;
 }
 
@@ -47,6 +51,7 @@
     font-weight: 300;
     line-height: 12px;
     transition: 2s;
+    font-family: Montserrat, sans-serif;
 }
 
 .contacts {
@@ -69,6 +74,7 @@
     line-height: 19px;
     width: fit-content;
     white-space: nowrap;
+    font-family: Inter, sans-serif;
 }
 
 .textContainer {

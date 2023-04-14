@@ -63,7 +63,7 @@ export const MainContent = () => {
                             вашего бизнеса</p>
                             </li>
                             <li className={stylesMainContent.gridItem}>
-                            <p className={stylesMainContent.gridItemTitle}>{'Skype Аудит'.toUpperCase()}</p>
+                            <p className={stylesMainContent.gridItemTitle}>{'Skype\u00A0Аудит'.toUpperCase()}</p>
                             <p className={stylesMainContent.gridItemText}>отдела продаж{'\n'}и&nbsp;CRM системы</p>
                             </li>
                             <li className={stylesMainContent.gridItem}>

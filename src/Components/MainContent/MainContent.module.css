@@ -11,7 +11,7 @@
 .title {
     font-size: 48px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     line-height: 58px;
     text-align: left;
     margin: 0;
@@ -32,10 +32,15 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
+    font-weight: 900;
 }
 
 .infoTitle {
     text-align: right;
+    font-family: Inter,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .infoSpan {
@@ -75,11 +80,27 @@
     grid-template-columns: 135px 135px;
     padding: 0;
     row-gap: 30px;
+    column-gap: 30px;
     margin: 40px 0 61px 0;
 }
 
 .gridItem {
     text-align: right;
+}
+
+.gridItemTitle {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.gridItemText {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .container {
@@ -97,6 +118,14 @@
     border-image: -webkit-linear-gradient(349deg, #ff8036 0%, #f84a39 100%);
     border-image-slice: 1;
     align-self: center;
+}
+
+.gridItemTextMobile {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 16px;
 }
 
 @media screen and (max-width: 735px) {
