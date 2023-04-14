@@ -1,7 +1,7 @@
-import React, {useEffect, useState} from "react";
+import React, {FC, useEffect, useState} from "react";
 import stylesMenu from './Menu.module.css'
 
-export const Menu = () => {
+export const Menu: FC = () => {
     const [screenSizeMin, getDimension] = useState({
         dynamicWidth: window.innerWidth
     });

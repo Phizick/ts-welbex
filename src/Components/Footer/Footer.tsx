@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FC} from "react";
 import stylesFooter from './Footer.module.css'
 import {Menu} from '../Menu/Menu';
 import socialTg from '../../images/tg.png'
@@ -6,7 +6,7 @@ import socialWts from '../../images/wts.png'
 import socialPhone from '../../images/phone.png'
 
 
-export const Footer = () => {
+export const Footer: FC = () => {
     return (
         <footer className={stylesFooter.container}>
             <div className={stylesFooter.about}>

@@ -1,8 +1,8 @@
-import React,{useEffect, useState} from "react";
+import React, {FC, useEffect, useState} from "react";
 import stylesMainContent from './MainContent.module.css';
 import {Button} from "../../Ui/Button/Button";
 
-export const MainContent = () => {
+export const MainContent: FC = () => {
     const [screenSize, getDimension] = useState({
         dynamicWidth: window.innerWidth
     });

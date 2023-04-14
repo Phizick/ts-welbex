@@ -1,4 +1,4 @@
-import React from "react";
+import React, {FC} from "react";
 import stylesHeader from './Header.module.css'
 import logoImg from '../../images/logo.png'
 import {NavItems} from "../../Constants/NavItems";
@@ -6,7 +6,7 @@ import socialTg from '../../images/tg.png'
 import socialWts from '../../images/wts.png'
 import socialPhone from '../../images/phone.png'
 
-export const Header = () => {
+export const Header: FC = () => {
     return (
         <header className={stylesHeader.header}>
             <div className={stylesHeader.mainHeaderContent}>
