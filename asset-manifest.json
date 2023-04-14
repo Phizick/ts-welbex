@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.68544508.css",
-    "main.js": "/static/js/main.44c0bebf.js",
-    "static/js/787.716042a2.chunk.js": "/static/js/787.716042a2.chunk.js",
-    "static/media/Inter-Bold.woff": "/static/media/Inter-Bold.1e547cd04bfe2dae1f98.woff",
-    "static/media/Inter-Medium.woff": "/static/media/Inter-Medium.44e343ff76a98508d309.woff",
-    "static/media/Inter-Black.woff": "/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
-    "static/media/Inter-Regular.woff": "/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
-    "static/media/Montserrat-Regular.woff": "/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff",
-    "static/media/Montserrat-Light.woff": "/static/media/Montserrat-Light.be142e6c3747b7b87e60.woff",
-    "static/media/red_ball.png": "/static/media/red_ball.f4816bcbe5500c507b8f.png",
-    "static/media/purple_ball.png": "/static/media/purple_ball.f4959387dc44449d257f.png",
-    "index.html": "/index.html",
-    "main.68544508.css.map": "/static/css/main.68544508.css.map",
-    "main.44c0bebf.js.map": "/static/js/main.44c0bebf.js.map",
-    "787.716042a2.chunk.js.map": "/static/js/787.716042a2.chunk.js.map"
+    "main.css": "/ts-welbex/static/css/main.1236736f.css",
+    "main.js": "/ts-welbex/static/js/main.df329d62.js",
+    "static/js/787.716042a2.chunk.js": "/ts-welbex/static/js/787.716042a2.chunk.js",
+    "static/media/Inter-Bold.woff": "/ts-welbex/static/media/Inter-Bold.1e547cd04bfe2dae1f98.woff",
+    "static/media/Inter-Medium.woff": "/ts-welbex/static/media/Inter-Medium.44e343ff76a98508d309.woff",
+    "static/media/Inter-Black.woff": "/ts-welbex/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
+    "static/media/Inter-Regular.woff": "/ts-welbex/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/Montserrat-Regular.woff": "/ts-welbex/static/media/Montserrat-Regular.3db65dc4b858f0fed4fb.woff",
+    "static/media/Montserrat-Light.woff": "/ts-welbex/static/media/Montserrat-Light.be142e6c3747b7b87e60.woff",
+    "static/media/red_ball.png": "/ts-welbex/static/media/red_ball.f4816bcbe5500c507b8f.png",
+    "static/media/purple_ball.png": "/ts-welbex/static/media/purple_ball.f4959387dc44449d257f.png",
+    "index.html": "/ts-welbex/index.html",
+    "main.1236736f.css.map": "/ts-welbex/static/css/main.1236736f.css.map",
+    "main.df329d62.js.map": "/ts-welbex/static/js/main.df329d62.js.map",
+    "787.716042a2.chunk.js.map": "/ts-welbex/static/js/787.716042a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68544508.css",
-    "static/js/main.44c0bebf.js"
+    "static/css/main.1236736f.css",
+    "static/js/main.df329d62.js"
   ]
 }
