@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ts-welbex/static/css/main.1236736f.css",
+    "main.css": "/ts-welbex/static/css/main.c473cec3.css",
     "main.js": "/ts-welbex/static/js/main.df329d62.js",
     "static/js/787.716042a2.chunk.js": "/ts-welbex/static/js/787.716042a2.chunk.js",
     "static/media/Inter-Bold.woff": "/ts-welbex/static/media/Inter-Bold.1e547cd04bfe2dae1f98.woff",
@@ -12,12 +12,12 @@
     "static/media/red_ball.png": "/ts-welbex/static/media/red_ball.f4816bcbe5500c507b8f.png",
     "static/media/purple_ball.png": "/ts-welbex/static/media/purple_ball.f4959387dc44449d257f.png",
     "index.html": "/ts-welbex/index.html",
-    "main.1236736f.css.map": "/ts-welbex/static/css/main.1236736f.css.map",
+    "main.c473cec3.css.map": "/ts-welbex/static/css/main.c473cec3.css.map",
     "main.df329d62.js.map": "/ts-welbex/static/js/main.df329d62.js.map",
     "787.716042a2.chunk.js.map": "/ts-welbex/static/js/787.716042a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1236736f.css",
+    "static/css/main.c473cec3.css",
     "static/js/main.df329d62.js"
   ]
 }
